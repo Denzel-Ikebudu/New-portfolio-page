@@ -29,7 +29,7 @@ export default function Skills() {
       id="skills"
       className="w-full max-w-6xl mx-auto text-center py-12 px-4 flex flex-col items-center"
     >
-      <h2 className="text-yellow-500 text-3xl font-semibold mb-4">What I Do</h2>
+      <h2 className="text-3xl font-semibold mb-4">What I Do</h2>
       <p className="max-w-3xl text-base font-light mb-8">
         I am a skilled and passionate web developer with experience in creating visually appealing and user-
         friendly websites. I have a strong understanding of modern web design principles and a keen eye for detail.

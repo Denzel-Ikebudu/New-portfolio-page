@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { BsBriefcase } from "react-icons/bs";
-import profilePic from "../../assets/profile.png";
+import profilePic from "../../assets/website-profile.png";
 import { BsFilePdf } from "react-icons/bs"
 
 export default function Hero() {
@@ -100,8 +100,8 @@ export default function Hero() {
           src={profilePic}
           alt="Profile picture"
           width={360}
-          height={480}
-          className="rounded-2xl object-cover w-70 bg-[rgb(var(--muted)/0.25)] transition-transform duration-300"
+          height={780}
+          className="rounded-2xl object-cover w-70 h-90 bg-[rgb(var(--muted)/0.25)] transition-transform duration-300"
           priority
         />
       </motion.div>
