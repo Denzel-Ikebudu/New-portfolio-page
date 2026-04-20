@@ -1,6 +1,20 @@
 
 export const projects = [
   {
+    title: "Immagination",
+    description: "A modern website for a startup.",
+    image: "/immagination-landing.jpg", 
+    liveUrl: "https://immagination.online",
+    tech: ["Next.js", "TypeScript", "Tailwind", "Bootstrap", "Framer Motion"],
+  },
+  {
+    title: "Juanita ELpaal Rock",
+    description: "A website for Juania ELpaal Rock, showcasing her Book and also session booking.",
+    image: "/juanita-snip.jpg", 
+    liveUrl: "https://bit.ly/Juanita-elpaalrock",
+    tech: ["Next.js", "TypeScript", "Tailwind", "Bootstrap", "Framer Motion"],
+  },
+  {
     title: "Olivion",
     description: "A modern interior design website with smooth animations and responsive layouts.",
     image: "/Olivion-profile.png", 

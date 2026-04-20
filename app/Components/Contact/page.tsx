@@ -39,7 +39,7 @@ export default function Contact() {
                  flex flex-col items-center justify-center text-center px-4"
     >
       <h2 className="text-3xl font-semibold mb-4">
-        Interested in working together?
+        Interested in <span className="text-yellow-400">working together?</span> 
       </h2>
 
       <p className="text-base font-light mb-8 max-w-xl">

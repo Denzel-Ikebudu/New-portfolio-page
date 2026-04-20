@@ -17,7 +17,7 @@ export default function Works() {
         viewport={{ once: true }}
         className="text-3xl font-semibold text-center mb-12"
       >
-        Selected Works
+        Selected <span className="text-yellow-400">Works</span>
       </motion.h2>
 
       <div className="grid md:grid-cols-2 gap-10">

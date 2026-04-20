@@ -3,6 +3,8 @@ import Skill from "./Skill/page";
 import Works from "./Works/page";
 import Contact from "./Contact/page";
 import Navbar from "./Navbar/page"
+import Footer from "./Footer/page";
+import Testimonial from "./Testimonial/page";
 
 export default function Components() {
   return (
@@ -12,6 +14,8 @@ export default function Components() {
       <Skill />
       <Works />
       <Contact />
+      <Testimonial />
+      <Footer />
     </div>
   )
 }
