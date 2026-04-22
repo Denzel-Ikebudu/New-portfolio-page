@@ -9,7 +9,7 @@ const testimonials = [
     id: 1,
     name: "Juanita Elaal Rock",
     role: "Relationship Coach and Author",
-    text: "When I saw my website, I was really impressed and blown away Denzel understood the assignment, I love that he used my brand colours perfectly. The website is easy to navigate. <br />I love it so much. Thank you",
+    text: "When I saw my website, I was really impressed and blown away Denzel understood the assignment, I love that he used my brand colours perfectly. The website is easy to navigate. I love it so much. Thank you",
   },
   {
     id: 2,
