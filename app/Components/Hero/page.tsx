@@ -64,7 +64,7 @@ export default function Hero() {
           className="mt-6 flex flex-wrap items-center gap-3"
         >
           {/* My Works */}
-          <a href="#works">
+          <a href="#contact">
             <button
               className="
               flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg bg-slate-900 text-white
@@ -72,19 +72,19 @@ export default function Hero() {
             "
             >
               <BsBriefcase size={16} />
-              My Works
+              Contact Me
             </button>
           </a>
 
           {/* Download Resume */}
-          <a href="/resume.pdf" download>
+          <a href="/CV-Denzel-Ikebudu.pdf" download>
             <button
               className="
               flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg border border-slate-400
               text-slate-700 dark:text-slate-300 transition-all duration-300 hover:bg-slate-100 
               dark:hover:bg-slate-800 hover:scale-[1.03] active:scale-95">
               <BsFilePdf size={16}/>
-              Download Resume
+              Download CV
             </button>
           </a>
         </motion.div>
