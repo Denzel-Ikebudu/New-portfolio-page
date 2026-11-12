@@ -55,9 +55,8 @@ export default function Works() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.12 }}
             transition={{ duration: 0.6 }}
-            className={`grid min-w-0 items-center gap-7 lg:grid-cols-2 lg:gap-12 ${
-              index % 2 === 1 ? "lg:[&>*:first-child]:order-2" : ""
-            }`}
+            className={`grid min-w-0 items-center gap-7 lg:grid-cols-2 lg:gap-12 ${index % 2 === 1 ? "lg:[&>*:first-child]:order-2" : ""
+              }`}
           >
             {/* Real project screenshot */}
             <a
@@ -73,21 +72,17 @@ export default function Works() {
               }
               rel="noopener noreferrer"
               aria-label={`Explore ${project.title}`}
-              className="group relative block aspect-[4/3] overflow-hidden rounded-2xl border border-[rgb(var(--muted)/0.15)] bg-[rgb(var(--card))]"
+              className="group relative block h-[330px] w-full overflow-hidden rounded-2xl border border-[rgb(var(--muted)/0.15)] bg-[rgb(var(--card))]"            
             >
               <Image
                 src={project.image}
                 alt={`${project.title} project screenshot`}
                 fill
                 sizes="(max-width: 1024px) 80vw, 40vw"
-                className="object-contain transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                className="object-contain scale-100 transition-transform duration-700 ease-out group-hover:scale-105"
               />
 
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-70 transition-opacity duration-300 group-hover:opacity-90" />
-
-              <span className="absolute left-5 top-5 rounded-full border border-white/20 bg-black/50 px-3 py-1.5 text-xs font-medium text-white backdrop-blur-md">
-                PROJECT {String(index + 1).padStart(2, "0")}
-              </span>
 
               {project.liveUrl && project.liveUrl !== "#" && (
                 <span className="absolute bottom-5 right-5 flex h-11 w-11 items-center justify-center rounded-full bg-yellow-400 text-xl text-black transition-transform duration-300 group-hover:rotate-45">
