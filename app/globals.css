@@ -1,31 +1,42 @@
+
 @import "tailwindcss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
 html {
   scroll-behavior: smooth;
-};
-
-:root{
-  --bg: 249 250 251;           
-  --text: 15 23 42;           
-  --muted: 71 85 105;        
-  --card: 226 232 240;         
-  --card-contrast: 30 41 59;         
-  --card-hover: 203 213 225; 
-  --accent: 234 179 8;  
 }
 
-.dark{
-  --bg: 0 0 0;             
-  --text: 244 244 245;      
+:root {
+  --bg: 249 250 251;
+  --text: 15 23 42;
+  --muted: 71 85 105;
+  --card: 226 232 240;
+  --card-contrast: 30 41 59;
+  --card-hover: 203 213 225;
+  --accent: 234 179 8;
+}
+
+.dark {
+  --bg: 0 0 0;
+  --text: 244 244 245;
   --muted: 148 163 184;
-  --card: 30 41 59;           
-  --card-contrast: 241 245 249;        
+  --card: 30 41 59;
+  --card-contrast: 241 245 249;
   --card-hover: 75 85 99;
   --accent: 250 204 21;
 }
 
-body{
+body {
+  font-family: var(--font-inter), sans-serif;
   background-color: rgb(var(--bg));
   color: rgb(var(--text));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-manrope), sans-serif;
 }
