@@ -8,14 +8,14 @@ import { BsStarFill } from "react-icons/bs";
 const testimonials = [
   {
     id: 1,
-    name: "Juanita Elaal Rock",
+    name: "Juanita Elpaal Rock",
     role: "Relationship Coach and Author",
     text: "When I saw my website, I was really impressed and blown away Denzel understood the assignment, I love that he used my brand colours perfectly. The website is easy to navigate. I love it so much. Thank you",
   },
   {
     id: 2,
     name: "Anukwu Chekwube",
-    role: "Startup Founder",
+    role: "CEO Immagination",
     text: "He turned our complex Figma designs into a high-performance React application in record time. Professional, fast, and highly skilled.",
   },
 ];
