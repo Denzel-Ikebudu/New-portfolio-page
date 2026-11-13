@@ -1,8 +1,9 @@
+
 "use client";
 
 import { motion } from "framer-motion";
 import { useState, useRef, useEffect } from "react";
-import { BsChatQuote } from "react-icons/bs";
+import { BsStarFill } from "react-icons/bs";
 
 const testimonials = [
   {
@@ -60,7 +61,15 @@ export default function Testimonials() {
                 className="min-w-[300px] md:min-w-[400px] p-8 rounded-2xl border border-[rgb(var(--card))] bg-[rgb(var(--card)/0.3)] backdrop-blur-sm flex flex-col justify-between"
               >
                 <div>
-                  <BsChatQuote className="text-yellow-400 mb-4" size={30} />
+                  <div className="flex items-center gap-1.5 mb-4">
+                    {Array.from({ length: 5 }).map((_, index) => (
+                      <BsStarFill
+                        key={index}
+                        className="text-yellow-400"
+                        size={20}
+                      />
+                    ))}
+                  </div>
                   <p className="text-lg italic leading-relaxed text-[rgb(var(--text))]">
                     "{item.text}"
                   </p>

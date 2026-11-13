@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Inter, Manrope } from "next/font/google";
 import { Toaster } from "react-hot-toast";
+import FloatingContact from "@/app/Components/FloatingContact";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -34,6 +35,7 @@ export default function RootLayout({
       >
         <Providers>
           {children}
+          <FloatingContact />
           <Toaster
             position="top-right"
             toastOptions={{
